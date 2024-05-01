@@ -125,7 +125,7 @@ body {
     height: 90.1%;
     background-image: url(https://images.unsplash.com/photo-1627067227573-07bc616f46ee?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
-    background-position: 0 30%;
+    background-position: 0 center;
 }
 
 .right .black_circle {
@@ -158,10 +158,10 @@ body {
         height: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 50% 50%;
         padding: 8vw;
         font-family: "Roboto", sans-serif;
-        grid-row-gap: 18vw;
+        grid-row-gap: 12vw;
 
     }
 
@@ -174,13 +174,12 @@ body {
         flex-direction: column;
         justify-content: center;
         line-height: 1;
-        gap: 10vw;
     }
 
     .left>h1 {
         font-size: 19.2vw;
         font-weight: 400;
-        line-height: 18.3vw;
+        line-height: 15.3vw;
 
 
     }
@@ -276,7 +275,7 @@ body {
         height: 90.1%;
         background-image: url(https://images.unsplash.com/photo-1627067227573-07bc616f46ee?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-size: cover;
-        background-position: 0 40%;
+        background-position: 0 60%;
     }
 
     .right .black_circle {
